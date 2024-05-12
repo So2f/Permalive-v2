@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  background-color: #070030;
+
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background: radial-gradient(
+      100vw circle at -40% -100%,
+      #ff5ee5 20%,
+      transparent 100%
+    ),
+    radial-gradient(
+      60vw circle at 100% 120% /* Adjusted position */,
+      #56ff9a -60%,
+      transparent 100%
+    );
+  background-color: #070030;
+}
+
+@layer components {
+  .debug-border {
+    @apply border border-red-500; /* Apply a red border */
+  }
+}
+
+@layer utilities {
+  .card {
+    @apply bg-white/5;
+    @apply backdrop-filter backdrop-blur-lg;
+    @apply rounded-2xl;
+  }
+}
