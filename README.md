@@ -22,6 +22,5 @@ Feedback
 Have ideas or suggestions? Found a bug? Please open an issue in this repository, and we'll address it promptly. 🐛
 
 Stay Updated
-Don't forget to ⭐️ star this repository to keep track of our progress! And follow us on Twitter for the latest updates. 🐦
-
+Don't forget to ⭐️ star this repository to keep track of our progress!
 Happy coding! 💻✨
