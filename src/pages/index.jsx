@@ -4,6 +4,7 @@ import logo from "../../public/Ethereum.png";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Card from "../components/Card";
+import bg from "../../public/bg.png";
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative ml-10">
-            <div className="w-1/2 absolute transform -rotate-6 scale-90 mt-48 -ml-4">
+            <div className="w-1/2 absolute transform -rotate-[8deg] scale-90 mt-48 -ml-10">
               <Card />
             </div>
             <div className="w-1/2 absolute transform rotate-12 mt-12 ml-36">

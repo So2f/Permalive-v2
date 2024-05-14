@@ -5,7 +5,7 @@ import trash from "../../public/trash.png";
 
 const Card = () => {
   return (
-    <div className="w-96 card shadow-xl transform transition duration-300 hover:-translate-y-6 pt-2">
+    <div className="w-[450px] card shadow-xl transform transition duration-300 hover:-translate-y-6 pt-2">
       <div className="text-white font-dmmono font-light text-2xl space-y-5">
         <div className="flex justify-between items-center px-8">
           <div className="">
